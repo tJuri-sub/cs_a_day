@@ -12,7 +12,7 @@ string transformedStringLowercase = str2.ToLower();
 
 Console.WriteLine(transformedStringLowercase);
 
-string capitalString1 = char.ToUpper(str1[0]) + str1.Substring(1);
-
-
-Console.WriteLine(capitalString1);
+//['h','e','l','l','o',' ','w','o','r','l','d']
+string capitalString1 = char.ToUpper(str1[0]) + str1.Substring(1, 5);
+string finalString = char.ToUpper(str1[6]) + str1.Substring(7);
+Console.WriteLine(capitalString1 + finalString);
